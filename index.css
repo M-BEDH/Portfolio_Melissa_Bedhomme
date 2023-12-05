@@ -1,0 +1,259 @@
+body{
+    max-width: 1400px;
+    box-sizing: content-box;
+    margin: auto;
+    background-color: #d9f3dd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 200px; 
+    background-color: #b9e0d1;
+}
+header h1{
+    width: 50%;
+    display: flex;
+    color: rgb(10, 83, 20);
+    text-shadow: #4a944a -1px 3px 2px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 50px;
+    line-height: 2;
+}
+header h2 p{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: auto;
+    font-size: 22px;
+    padding-top: 20px;
+    
+}
+header h2 a{
+    display: block;
+    text-decoration: none;
+    color: #255f2d;
+    padding-right: 15px;
+}
+header h2 a:hover{
+    color: #666e66;
+    text-decoration: underline #962f40;
+    transform: scale(1.1);
+}
+main .experiences{
+    margin-top: 80px;
+}
+main .experiences ul li img{
+    width: 65%;
+    height: 95px;
+    object-fit: cover;
+    border-radius: 19px;
+    margin-top: 10px;
+}
+main .experiences ul li img:hover{
+    transform: scale(1.1);
+}
+main .experiences h3 {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 35px;
+    font-size: 30px;
+    text-align: center;
+    color: #962f40;
+    border-bottom: #962f40 double;
+    text-shadow: #2518c4 1px 1px 0px;
+    line-height: 0px;
+}
+main .experiences ul{
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+main .experiences ul li{
+    width: 40%;
+    margin: auto;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+main .experiences a{
+    color: #10791e;
+    text-decoration: none;
+}
+main .experiences a:hover{
+    color: #545a54;
+    text-decoration: underline #8a326f;
+}
+.projets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+form{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    width: 30%;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 17px;
+}
+button{
+    width: 25%;
+    height: 25px;
+    margin-top: 20px;
+    background-color: #b4e7d3;
+}
+button a{
+    color: #000;
+    text-decoration: none;
+}
+input{
+    width: 50%;
+    height: 25px;
+}
+.aproposH2{
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.about{
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+span{
+    color: #c53049;
+    font-size: 19px;
+}
+mark {
+    background-color: #b4e7d3;
+    color: #c53049;
+    font-weight: bolder;
+}
+.about a{
+    color: #c53049;
+}
+.aproposH1{
+    line-height: 3;
+}
+.aproposH3{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.aproposH3 a{
+    text-decoration: none;
+    color: #000;
+    padding-right: 30px;
+}
+.aproposH3 a:hover{
+    color: #545854;
+    text-decoration: underline 3px #8a326f;
+}
+footer {
+    height: 200px;
+    background-color: #b9e0d1;
+}
+footer h3 {
+    width: 40%;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    color: #962f40;
+    border-bottom: #962f40 double;
+    text-shadow: #2518c4 1px 1px 0px;
+}
+footer p {
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    color: #000;
+}
+footer p a {
+    color: #000;
+    text-decoration: none;
+}
+footer p a:hover {
+    display: block;
+transform: scale(1.1);
+color: #962f40;
+}
+
+footer img {
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+footer .footer{
+    margin-top: 30px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 750px) {
+    header h1{
+        width: 100%;
+        font-size: 40px;
+        text-shadow: #4a944a 3px 1px 2px;
+    }
+        .aproposH1 {
+            line-height: 4;
+        }
+    .aproposH2{
+        width: 50%;
+        font-size: 22px;
+    }
+    header h2 p{
+        width: 60%;
+        margin: auto;
+        font-size: 20px;
+    }
+    main .experiences {
+        margin-top: 20px;
+    }
+    main .experiences h3{
+        font-size: 28px;
+        
+    }
+    main .experiences ul{
+        width: 88%;
+    }
+    main .experiences li{
+        width: 90%;
+        font-size: 25px;
+    }
+    form{
+        width: 100%;
+    }
+    input{
+        width: 80%;
+    }
+    .about{
+        padding-bottom: 1px;
+    }
+}
+

@@ -170,6 +170,13 @@ mark {
     color: #545854;
     text-decoration: underline 3px #8a326f;
 }
+.contactLinkedIn a{
+    display: flex;
+    justify-content: center;
+    color: #962f40;
+    padding-top: 15px;
+    font-weight: bold;
+}
 footer {
     height: 200px;
     background-color: #b9e0d1;
@@ -258,7 +265,7 @@ footer .footer{
         width: 80%;
     }
     .about{
-        padding-bottom: 1px;
+        padding: 11px;
         width: 95%;
     }
 }

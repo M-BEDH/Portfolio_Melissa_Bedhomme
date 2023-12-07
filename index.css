@@ -56,15 +56,14 @@ main .experiences ul li img:hover{
     transform: scale(1.1);
 }
 main .experiences h3 {
-    width: 40%;
+    width: 50%;
     margin: auto;
-    padding-bottom: 35px;
+    padding-bottom: 10px;
     font-size: 30px;
     text-align: center;
     color: #962f40;
     border-bottom: #962f40 double;
     text-shadow: #2518c4 1px 1px 0px;
-    line-height: 0px;
 }
 main .experiences ul{
     width: 50%;
@@ -78,6 +77,7 @@ main .experiences ul li{
     margin: auto;
     font-size: 22px;
     margin-bottom: 30px;
+    list-style: circle;
 }
 main .experiences a{
     color: #10791e;
@@ -88,6 +88,8 @@ main .experiences a:hover{
     text-decoration: underline #8a326f;
 }
 .projets {
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

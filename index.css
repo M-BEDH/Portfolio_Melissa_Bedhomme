@@ -6,12 +6,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    height: 200px; 
+    height: 150px; 
     background-color: #cff8e8;
     border-radius: 0 0 30px 30px;
 }
 header h1{
     width: 50%;
+    height: 50px;
     display: flex;
     color: #06195a; 
     text-shadow: #ffffff 1px 3px 2px;
@@ -60,7 +61,7 @@ main .experiences ul li img{
 main .experiences h3 {
     width: 50%;
     margin: auto;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
     font-size: 30px;
     text-align: center;
     color: #a8e1fc;
@@ -92,7 +93,7 @@ main .experiences a:hover{
 .projets {
     width: 90%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -152,12 +153,12 @@ input{
     padding-bottom: 30px;
 }
 span{
-    color: #c53049;
+    color: #f33454;
     font-size: 19px;
 }
 mark {
     background-color: #b4e7d3;
-    color: #c53049;
+    color: #f33454;
     font-weight: bolder;
 }
 .aproposH1{
@@ -178,7 +179,7 @@ mark {
 i.fa-solid.fa-arrow-left {
     font-size: 15px;
     padding-right: 5px;
-    color: #962f40;
+    color: #f33454;
 }
 .contactLinkedIn a{
     display: flex;

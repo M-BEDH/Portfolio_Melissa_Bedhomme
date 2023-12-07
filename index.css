@@ -22,6 +22,11 @@ header h1{
     font-size: 50px;
     line-height: 2;
 }
+i.fa-solid.fa-arrow-right {
+    padding-left: 5px;
+    color: #962f40;
+    font-size: 15px;
+}
 header h2 p{
     display: flex;
     justify-content: space-around;
@@ -40,7 +45,6 @@ header h2 a{
 header h2 a:hover{
     color: #666e66;
     text-decoration: underline #962f40;
-    transform: scale(1.1);
 }
 main .experiences{
     margin-top: 80px;
@@ -125,6 +129,10 @@ input{
     width: 50%;
     height: 25px;
 }
+#apropos {
+    width: 90%;
+    margin: auto;
+}
 .aproposH2{
     width: 20%;
     margin: auto;
@@ -167,7 +175,12 @@ mark {
 }
 .aproposH3 a:hover{
     color: #545854;
-    text-decoration: underline 3px #8a326f;
+    text-decoration: underline 2px #962f40;
+}
+i.fa-solid.fa-arrow-left {
+    font-size: 15px;
+    padding-right: 5px;
+    color: #962f40;
 }
 .contactLinkedIn a{
     display: flex;

@@ -24,11 +24,6 @@ header h1{
     font-size: 50px;
     line-height: 2;
 }
-i.fa-solid.fa-arrow-right {
-    padding-left: 5px;
-    color: #962f40;
-    font-size: 15px;
-}
 header h2 p{
     display: flex;
     justify-content: space-around;
@@ -36,15 +31,24 @@ header h2 p{
     margin: auto;
     font-size: 22px;
     padding-top: 5px;
-    
 }
-header h2 a{
+header a{
+    width: 150px;
+    margin: auto;
     display: block;
     text-decoration: none;
     color: #962f40;
     padding-right: 15px;
+    padding-top: 20px;
+    font-size: 20px;
 }
-header h2 a:hover{
+
+i.fa-solid.fa-arrow-right , i.fa-solid.fa-arrow-left{
+    color: #962f40;
+    font-size: 15px;
+}
+
+header  a:hover{
     color: #666e66;
     text-decoration: underline #962f40;
 }
@@ -166,20 +170,6 @@ mark {
 }
 #apropos {
     margin: 70px;
-}
-#apropos a{
-    text-decoration: none;
-    color: #ade5f7;
-    padding-right: 30px;
-}
-#apropos a:hover{
-    color: #ffffff;
-    text-decoration: underline 3px #faa7b5;
-}
-i.fa-solid.fa-arrow-left {
-    font-size: 15px;
-    padding-right: 5px;
-    color: #f33454;
 }
 .contactLinkedIn a{
     display: flex;

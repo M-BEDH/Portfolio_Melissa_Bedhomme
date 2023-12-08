@@ -3,27 +3,28 @@ body{
     box-sizing: content-box;
     margin: auto;
     background-color: #06195a;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
+
 header{
     height: 175px; 
-    background-color: #cff8e8;
+    background-color: #a2fff6;
     border-radius: 0 0 30px 30px;
 }
+
 header h1{
     width: 50%;
     height: 50px;
     display: flex;
     color: #06195a; 
-    text-shadow: #ffffff 1px 3px 2px;
     justify-content: center;
     align-items: center;
     margin: auto;
     padding-top: 30px;
-    font-family:Georgia, 'Times New Roman', Times, serif; 
     font-size: 50px;
-    line-height: 2;
 }
+
 header h2 p{
     display: flex;
     justify-content: space-around;
@@ -32,83 +33,121 @@ header h2 p{
     font-size: 22px;
     padding-top: 5px;
 }
+
 header a{
     width: 150px;
     margin: auto;
     display: block;
     text-decoration: none;
-    color: #962f40;
-    padding-right: 15px;
+    color: #06195a;
     padding-top: 20px;
     font-size: 20px;
 }
 
 i.fa-solid.fa-arrow-right , i.fa-solid.fa-arrow-left{
-    color: #962f40;
-    font-size: 15px;
+    color: #ff198e;
+    font-size: 14px;
+    padding: 10px;
 }
 
-header  a:hover{
-    color: #666e66;
-    text-decoration: underline #962f40;
-}
-main .experiences{
-    margin-top: 80px;
-}
-main .experiences ul li img{
-    width: 80%;
-    height: 95px;
-    object-fit: cover;
-    border-radius: 19px;
-    margin-top: 10px;
-}
-main .experiences h3 {
-    width: 50%;
-    margin: auto;
-    padding-bottom: 25px;
-    font-size: 30px;
-    text-align: center;
-    color: #a8e1fc;
-    border-bottom: #afeffa double;
-    text-shadow: #2518c4 1px 1px 0px;
-}
-main .experiences ul{
-    width: 65%;
-    margin: auto;
-    padding-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-}
-main .experiences ul li{
-    width: 40%;
-    margin: auto;
-    font-size: 22px;
-    padding-bottom: 40px;
-    list-style: circle;
-}
-main .experiences a{
-    color: #a8e1fc;
-    text-decoration: none;
-}
-main .experiences a:hover{
-    color: #fcfffc;
-    text-decoration: underline #faf6f9;
-}
-.projets {
-    width: 90%;
-    margin: auto;
-    padding-top: 40px;
+.nav {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    align-items: center;
 }
-.contact{
+
+.contact {
     display: flex;
     justify-content: center;
     padding-top: 55px;
     padding-bottom: 20px;
     font-size: 30px;
 }
+
+header  a:hover{
+    color: #6b6d6b;
+    text-decoration: underline 2px #ff198e;
+}
+
+main .experiences{
+    width: 91%;
+    margin: auto;
+    margin: 50px  auto ;
+    padding-bottom: 45px;
+    font-size: 30px;
+    text-align: center;
+    color: #68fff0;
+    border-bottom: #1effe8 double;
+}
+
+#projets {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.divProjet {
+    width: 40%;
+    height: auto;
+    margin: 30px auto;
+    padding-bottom: 15px;
+    justify-content: center;
+    border: 5px solid #020244;
+    border-radius: 20px;
+    background-color: #020244;
+} 
+
+#projets .projet {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#projets .projet .titreProjet{
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+    display: block;
+    color: #68fff0;
+    font-size: 25px;
+    
+}
+
+#projets .projet a, #projets .description a {
+    text-decoration: none; 
+}
+
+#projets .description {
+    width: 60%;
+    margin: auto;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#projets .description a {
+    color: #ff198e;
+    font-size: 15px;
+}
+
+#projets .projet a:hover, #projets .description a:hover {
+    color: #ffffff;
+    text-decoration: underline #faf6f9;
+}
+
+#projets .projet img {
+    width: 70%;
+    height: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: #1effe8 3px solid;
+    padding: 3px;
+    object-fit: fill;
+}
+
 form{
     width: 60%;
     margin: auto;
@@ -156,31 +195,34 @@ input{
     font-size: 20px;
     padding-bottom: 30px;
 }
-span{
-    color: #f33454;
-    font-size: 19px;
+
+.about a {
+    letter-spacing: 1px;
+    color: #ff198e;
 }
+
+.about a:hover {
+    color: #1effe8;
+    text-decoration: underline;
+}
+
+span{
+    color: #ff198e;
+}
+
 mark {
-    background-color: #b4e7d3;
-    color: #f33454;
+    background-color: #1effe8;
+    color: #000000;
     font-weight: bolder;
 }
-.aproposH1{
-    line-height: 3;
-}
+
 #apropos {
     margin: 70px;
 }
-.contactLinkedIn a{
-    display: flex;
-    justify-content: center;
-    color: #962f40;
-    padding-top: 15px;
-    font-weight: bold;
-}
+
 footer {
     height: 150px;
-    background-color: #cff8e8;
+    background-color: #a2fff6;
     border-radius: 30px 30px 0 0;
 }
 
@@ -190,7 +232,6 @@ footer p {
     font-size: 20px;
     text-align: center;
     padding-top: 10px;
-    color: #000;
 }
 footer p a {
     color: #000;
@@ -199,7 +240,7 @@ footer p a {
 footer p a:hover {
     display: block;
     transform: scale(1.1);
-    color: #962f40;
+    color: #ff198e;
 }
 
 footer img {
@@ -214,19 +255,19 @@ footer .footer{
     margin-top: 30px;
     padding: 30px;
 }
+/***************************************************    *****************************************************/
 
-
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 747px) {
     header{
         height: 180px;
+        box-shadow: inset #020244 1px -1px 10px 10px;
     }
     header h1{
         width: 100%;
         font-size: 40px;
-        text-shadow: #4a944a 3px 1px 2px;
     }
     .projets {
-        padding-top: 10px;
+        padding-top: 5px;
     }
     .aproposH2{
         width: 50%;
@@ -238,32 +279,62 @@ footer .footer{
         font-size: 20px;
     }
     main .experiences {
-        font-size: 20px;
-        margin-top: 20px;
+        font-size: 22px;
+        font-weight: lighter;
     }
     main .experiences h3{
         width: 100%;
         padding-top: 20px;
         font-size: 25px;
-        
     }
-    main .experiences ul{
+    
+    .divProjet {
         width: 100%;
+        margin-bottom: 0px;
+        border-radius: 0px;
+    }
+    
+    #projets .projet {
+        width: 80%;
+    }
+    
+    #projets .projet .titreProjet{
+        font-size: 20px;
+    }
+    
+    #projets .projet img {
+        width: 60%;
+        height: 200px;
         display: block;
     }
-    main .experiences ul li{
-        font-size: 16px;
-        font-weight: bold;
-        width: 90%;
+    
+    #projets .description {
+        width: 75%;
+        font-size: 17px;
     }
+    
+    footer {
+        box-shadow: inset #020244 1px -1px 10px 10px;
+    }
+    
+    footer p {
+        width: 100%;
+    }
+    
     form{
         width: 100%;
     }
+    
     input{
         width: 80%;
     }
+    
     .about{
-        width: 81%;
+        width: 89%;
+    }
+
+    span {
+        font-size: 17px;
     }
     #apropos {
         margin: 20px;

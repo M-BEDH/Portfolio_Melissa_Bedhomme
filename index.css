@@ -407,9 +407,12 @@ font-size: 16px;
         line-height: 50px;
         padding-top: 15px;
     }
-         .divPresentation span{
-           font-size: 20px;
-         }
+    .divPresentation span{
+        font-size: 20px;
+    }
+.divPresentation .presentationNom {
+    font-size: 25px;
+}
 
     .divProjet {
         width: 100%;

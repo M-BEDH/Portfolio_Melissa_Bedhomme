@@ -362,9 +362,6 @@ footer .footer{
 }
 
 
-
-
-
 /***************************************************    *****************************************************/
 
 @media screen and (max-width: 747px) {
@@ -378,7 +375,7 @@ footer .footer{
     }
 
     header a {
-font-size: 18px;
+font-size: 16px;
     }
 
     .projets {

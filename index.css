@@ -13,18 +13,6 @@ header{
     border-radius: 0 0 30px 30px;
 }
 
-header h1{
-    width: 50%;
-    height: 50px;
-    display: flex;
-    color: #06195a; 
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding-top: 30px;
-    font-size: 50px;
-}
-
 header h2 p{
     display: flex;
     justify-content: space-around;
@@ -40,8 +28,12 @@ header a{
     display: block;
     text-decoration: none;
     color: #06195a;
-    padding-top: 20px;
-    font-size: 20px;
+    font-size: 22px;
+}
+
+header a:hover {
+    color: #797a79;
+    text-decoration: underline 2px #ff198e;
 }
 
 i.fa-solid.fa-arrow-right , i.fa-solid.fa-arrow-left{
@@ -51,9 +43,13 @@ i.fa-solid.fa-arrow-right , i.fa-solid.fa-arrow-left{
 }
 
 .nav {
+    width: 30%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 
 .contact {
@@ -64,9 +60,31 @@ i.fa-solid.fa-arrow-right , i.fa-solid.fa-arrow-left{
     font-size: 30px;
 }
 
-header  a:hover{
-    color: #6b6d6b;
-    text-decoration: underline 2px #ff198e;
+.divPresentation {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 55px;
+}
+
+.divPresentation span {
+color: #06195a;
+}
+
+main h1 {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    color: #68fff0;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 40px;
 }
 
 main .experiences{
@@ -99,6 +117,12 @@ main .experiences{
     background-color: #020244;
 } 
 
+.divProjet:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 5px solid #1effe8;
+}
+
 #projets .projet {
     width: 80%;
     margin: auto;
@@ -112,7 +136,6 @@ main .experiences{
     display: block;
     color: #68fff0;
     font-size: 25px;
-    
 }
 
 #projets .projet a, #projets .description a {
@@ -129,11 +152,6 @@ main .experiences{
 #projets .description a {
     color: #ff198e;
     font-size: 15px;
-}
-
-#projets .projet a:hover, #projets .description a:hover {
-    color: #ffffff;
-    text-decoration: underline #faf6f9;
 }
 
 #projets .projet img {
@@ -175,6 +193,18 @@ input{
     width: 50%;
     height: 25px;
 }
+header .aproposH1 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: #06195a;
+}
+
+.navApropos a{
+    width: 95%;
+color: #06195a;
+}
+
 #apropos {
     width: 90%;
     margin: auto;
@@ -266,18 +296,26 @@ footer .footer{
         width: 100%;
         font-size: 40px;
     }
+
+    header a {
+font-size: 18px;
+    }
+
     .projets {
         padding-top: 5px;
     }
+
     .aproposH2{
         width: 50%;
         font-size: 20px;
     }
+
     header h2 p{
         width: 60%;
         margin: auto;
         font-size: 20px;
     }
+
     main .experiences {
         font-size: 22px;
         font-weight: lighter;

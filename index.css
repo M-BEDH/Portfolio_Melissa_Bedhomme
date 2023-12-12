@@ -114,13 +114,14 @@ main .experiences{
     border: 5px solid #020244;
     border-radius: 20px;
     background-color: #020244;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 } 
 
 .divProjet:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
     border: 5px solid #1effe8;
+}
+
+#projets .projet img:hover {
+    transform: scale(1.1);
 }
 
 #projets .projet {
@@ -136,6 +137,9 @@ main .experiences{
     display: block;
     color: #68fff0;
     font-size: 25px;
+}
+#projets .projet .titreProjet:hover {
+    text-decoration: underline 2px #ffffff;
 }
 
 #projets .projet a, #projets .description a {
@@ -323,7 +327,7 @@ footer .footer{
         transform-origin: 0% 100%;
     }
 }
-/*********************************************************************************************** ****************************/
+/******************************************************** ANIMATIONS *******************************************************************/
 .scale-up-tr {
     -webkit-animation: scale-up-tr 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: scale-up-tr 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -362,7 +366,7 @@ footer .footer{
 }
 
 
-/***************************************************    *****************************************************/
+/*************************************************** MEDIA-QUERY ********************************************************/
 
 @media screen and (max-width: 747px) {
     header{

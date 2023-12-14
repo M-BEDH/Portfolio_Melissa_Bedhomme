@@ -3,7 +3,7 @@ body{
     box-sizing: content-box;
     margin: auto;
     background-color: #06195a;
-    font-family: serif;
+    font-family: cursive;
 }
 
 header{
@@ -42,7 +42,7 @@ i.fa-solid.fa-arrow-right , i.fa-solid.fa-arrow-left{
 }
 
 .nav {
-    width: 30%;
+    width: 32%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -213,6 +213,8 @@ color: #06195a;
     width: 90%;
     margin: auto;
     color: white;
+    margin: 70px;
+    letter-spacing: 1px;
 }
 .aproposH2{
     width: 20%;
@@ -241,17 +243,13 @@ color: #06195a;
 }
 
 span{
-    color: #ff198e;
+    color: #00ffe6;
 }
 
 mark {
-    background-color: #1effe8;
-    color: #000000;
-    font-weight: bolder;
-}
-
-#apropos {
-    margin: 70px;
+    background-color: #a6f5ff;
+    font-style: oblique;
+    border-radius: 10px;
 }
 
 footer {
@@ -463,11 +461,9 @@ font-size: 16px;
         width: 89%;
     }
 
-    span {
-        font-size: 17px;
-    }
     #apropos {
         margin: 20px;
+        line-height: 25px;
     }
 }
 

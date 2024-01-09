@@ -3,7 +3,7 @@ body{
     box-sizing: content-box;
     margin: auto;
     background-color: #06195a;
-    font-family: cursive;
+    font-family: cursive
 }
 
 header{
@@ -27,7 +27,7 @@ header a{
     display: block;
     text-decoration: none;
     color: #06195a;
-    font-size: 22px;
+    font-size: 23px;
 }
 
 header a:hover {
@@ -136,7 +136,7 @@ main .experiences{
     padding: 10px;
     display: block;
     color: #68fff0;
-    font-size: 25px;
+    font-size: 23px;
 }
 #projets .projet .titreProjet:hover {
     text-decoration: underline 2px #ffffff;

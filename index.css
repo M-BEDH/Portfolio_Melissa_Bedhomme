@@ -133,13 +133,13 @@ main .experiences{
 #projets .projet .titreProjet{
     width: max-content;
     margin: auto;
-    padding: 10px;
+    padding: 15px;
     display: block;
     color: #68fff0;
     font-size: 23px;
 }
 #projets .projet .titreProjet:hover {
-    text-decoration: underline 2px #ffffff;
+    text-decoration: underline 2px #ff198e;
 }
 
 #projets .projet a, #projets .description a {

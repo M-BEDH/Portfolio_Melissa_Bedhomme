@@ -22,12 +22,11 @@ header h2 p{
 }
 
 header a{
-    width: 150px;
     margin: auto;
     display: block;
     text-decoration: none;
     color: #06195a;
-    font-size: 23px;
+    font-size: 22px;
 }
 
 header a:hover {
@@ -62,12 +61,21 @@ i.fa-solid.fa-arrow-right , i.fa-solid.fa-arrow-left{
 .divPresentation {
     display: flex;
     flex-direction: row;
-    width: 70%;
+    width: 80%;
     margin: auto;
     justify-content: center;
-    font-size: 35px;
     font-weight: bold;
-    line-height: 55px;
+    padding-top: 25px;
+}
+
+span.presentationNom {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+span.presentation{
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .divPresentation span {
@@ -260,7 +268,7 @@ footer {
 footer p {
     width: 50%;
     margin: auto;
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
     padding-top: 10px;
 }

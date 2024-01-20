@@ -65,12 +65,12 @@ i.fa-solid.fa-arrow-right , i.fa-solid.fa-arrow-left{
     margin: auto;
     justify-content: center;
     font-weight: bold;
-    padding-top: 20px;
+    padding-top: 25px;
     line-height: 1.5;
 }
 
 span.presentationNom {
-    font-size: 40px;
+    font-size: 38px;
 }
 
 span.presentation{
@@ -286,7 +286,7 @@ footer p {
 }
 footer p a {
     font-size: 25px;
-    color: #aafff7;
+    color: #ffffff;
     text-decoration: none;
 }
 footer p a:hover {
@@ -426,8 +426,8 @@ footer .footer{
     }
     .divPresentation {
         width: 100%;
-        line-height: 50px;
-        padding-top: 15px;
+        line-height: 30px;
+        padding-top: 45px;
     }
     .divPresentation span{
         width: 100%;

@@ -401,6 +401,7 @@ footer .footer{
 
 @media screen and (max-width: 747px) {
     header{
+        width: 95%;
         height: 180px;
         box-shadow: inset #020244 1px -1px 10px 10px;
     }

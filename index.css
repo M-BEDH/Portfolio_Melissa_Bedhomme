@@ -474,11 +474,7 @@ footer .footer{
     #projets .description {
         font-size: 17px;
     }
-    
-    footer {
-        box-shadow: inset #020244 1px -1px 10px 10px;
-    }
-    
+
     footer p {
         width: 100%;
     }

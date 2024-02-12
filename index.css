@@ -475,6 +475,11 @@ footer .footer{
     #projets .description {
         font-size: 17px;
     }
+
+    nav {
+        padding: 6px;
+    }
+    
    footer {
     border-radius: 0;
  }

@@ -476,10 +476,10 @@ footer .footer{
         font-size: 17px;
     }
 
-    nav {
+    .nav {
         padding: 6px;
     }
-    
+
    footer {
     border-radius: 0;
  }

@@ -109,7 +109,7 @@ main .experiences{
     border-bottom: #1effe8 double;
 }
 .CV a {
- width: 40%;
+ width: 30%;
  margin: auto;
  color: #ee1717;
  font-weight: bold;
@@ -481,7 +481,7 @@ footer .footer{
     }
 
     .CV a {
-        width: 60%;
+        width: 70%;
         padding: 6px;
     }
 

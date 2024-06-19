@@ -269,11 +269,12 @@ header .aproposH1 {
 
 .about a {
     letter-spacing: 1px;
-    color: #bf0745;
+    color: #1effe8;
 }
 
 .about a:hover {
-    color: #1effe8;
+   
+    color: #bf0745;
     text-decoration: underline;
 }
 

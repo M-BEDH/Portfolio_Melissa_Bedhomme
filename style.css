@@ -143,9 +143,9 @@ main .experiences{
     border: 5px solid #1effe8;
 }
 
-#projets .projet img:hover {
+/* #projets .projet img:hover {
     transform: scale(1.1);
-}
+} */
 
 #projets .projet {
     width: 80%;
@@ -203,7 +203,7 @@ padding-left: 15px;
     border-radius: 30px;
     border: #1effe8 3px solid;
     padding: 3px;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 form{
